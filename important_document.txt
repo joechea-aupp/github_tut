@@ -1,4 +1,4 @@
 monthly payrolls,
 
 jack = 200$,
-jess = 300$,
+jess = 200$,
