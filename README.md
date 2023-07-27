@@ -53,3 +53,9 @@ On Github Desktop, you can see the history tab on the right of `Changes` tab. Cl
 ![picture8](resources/image_2023-07-27_23-25-48.png)
 
 each commit that we save will be shown on the history tab. Click on the commit to see the change that we made.
+
+### 3.2. Git Revert
+
+If you want to revert the change that you made, right click on any history that you want to revert to and click on `Revert changes in commit`.
+
+![picture9](resources/image_2023-07-27_23-32-01.png)
