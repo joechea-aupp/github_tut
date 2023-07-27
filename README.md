@@ -38,10 +38,18 @@ Blue vertical line after line number indicate the outgoing update to the reposit
 
 ![picture6](resources/image_2023-07-27_23-09-10.png)
 
-## 3. Color Indicator in Github Desktop
+## 3. Github Desktop
 
 - Green color indicate the additional data is added to the repository.
 - Red color indicate the data is deleted from the repository.
 - Orange color indicate the data is modified in the repository.
 
 ![picture7](resources/image_2023-07-27_23-18-22.png)
+
+### 3.1. History
+
+On Github Desktop, you can see the history tab on the right of `Changes` tab. Click on it to see the history of the repository.
+
+![picture8](resources/image_2023-07-27_23-25-48.png)
+
+each commit that we save will be shown on the history tab. Click on the commit to see the change that we made.
