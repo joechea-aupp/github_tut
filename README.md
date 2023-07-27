@@ -33,3 +33,15 @@ Click `Push origin` button to send the change to github (cloud).
 Green vertical line after line number indicate the incoming update to the repository.
 
 ![picture5](resources/image_2023-07-27_22-35-04.png)
+
+Blue vertical line after line number indicate the outgoing update to the repository. if you click on the blue line, you will see the change that you made.
+
+![picture6](resources/image_2023-07-27_23-09-10.png)
+
+## 3. Color Indicator in Github Desktop
+
+- Green color indicate the additional data is added to the repository.
+- Red color indicate the data is deleted from the repository.
+- Orange color indicate the data is modified in the repository.
+
+![picture7](resources/image_2023-07-27_23-18-22.png)
