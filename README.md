@@ -17,3 +17,13 @@ click on clone to start download the project.
 After made change on the project, go back to the github desktop app and observe the change
 
 ![picture3](resources/image_2023-07-27_22-21-52.png)
+
+To save change or commit the history, locate the bottom left screen, give title to the change history and click on `commit to main` button.
+
+![picture4](resources/image_2023-07-27_22-29-22.png)
+
+once commited, your change file will disappear from the left menu.
+
+Click `Push origin` button to send the change to github (cloud).
+
+![picture5](resources/image_2023-07-27_22-30-59.png)
