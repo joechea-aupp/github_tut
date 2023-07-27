@@ -1,4 +1,4 @@
-## To Get Start
+## 1. To Get Start
 
 Download [GitHub Desktop app](https://desktop.github.com/)
 
@@ -27,3 +27,9 @@ once commited, your change file will disappear from the left menu.
 Click `Push origin` button to send the change to github (cloud).
 
 ![picture5](resources/image_2023-07-27_22-30-59.png)
+
+## 2. Git In VS Code
+
+Green vertical line after line number indicate the incoming update to the repository.
+
+![picture5](resources/image_2023-07-27_22-35-04.png)
