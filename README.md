@@ -64,13 +64,22 @@ If you want to revert the change that you made, right click on any history that 
 
 If your change is impact or about to overwrite the current content that exist on your project, a prompt to resolve conflict will appear.
 
-Switch to VS Code to resolve the conflict. file that marked as conflicted will have `>>>>>>` and `<<<<<<` on the file and colored in red.
+![picture11](resources/image_2023-07-28_08-26-24.png)
 
-click on the `Resolve Conflict` button on the bottom left of the screen.
-the incoming change will be on the left side and the outgoing change will be on the right side.
+Switch to VS Code to resolve the conflict. file that marked as conflicted will have `>>>>>>` and `<<<<<<` on the file and colored in red or orange.
+
+![picture10](resources/image_2023-07-28_08-26-31.png)
+
+click on the conflicted file and click on `Resolve in Merge Editor` button on the bottom left of the screen. the incoming change will be on the left side and the outgoing change will be on the right side.
+
+![picture12](resources/image_2023-07-28_08-29-11.png)
 
 click `Accept Incoming Change` to accept the incoming change or click `Accept Current Change` to accept the outgoing change.
+
+![picture13](resources/image_2023-07-28_08-30-03.png)
 
 click `Accept Both Changes` to accept both change.
 
 click `Complete Merge` to complete the merge.
+
+![picture14](resources/image_2023-07-28_08-33-51.png)
