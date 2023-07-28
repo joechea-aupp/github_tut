@@ -28,7 +28,7 @@ Click `Push origin` button to send the change to github (cloud).
 
 ![picture5](resources/image_2023-07-27_22-30-59.png)
 
-## 2. Git In VS Code
+## Git In VS Code
 
 Green vertical line after line number indicate the incoming update to the repository.
 
@@ -38,7 +38,7 @@ Blue vertical line after line number indicate the outgoing update to the reposit
 
 ![picture6](resources/image_2023-07-27_23-09-10.png)
 
-## 3. Github Desktop
+## Github Desktop
 
 - Green color indicate the additional data is added to the repository.
 - Red color indicate the data is deleted from the repository.
@@ -46,7 +46,7 @@ Blue vertical line after line number indicate the outgoing update to the reposit
 
 ![picture7](resources/image_2023-07-27_23-18-22.png)
 
-### 3.1. History
+### 1. History
 
 On Github Desktop, you can see the history tab on the right of `Changes` tab. Click on it to see the history of the repository.
 
@@ -54,13 +54,13 @@ On Github Desktop, you can see the history tab on the right of `Changes` tab. Cl
 
 each commit that we save will be shown on the history tab. Click on the commit to see the change that we made.
 
-### 3.2. Git Revert
+### 2. Git Revert
 
 If you want to revert the change that you made, right click on any history that you want to reverted and click on `Revert changes in commit`.
 
 ![picture9](resources/image_2023-07-27_23-32-01.png)
 
-### 3.2 Dealing with Conflict
+### 3. Dealing with Conflict
 
 If your change is impact or about to overwrite the current content that exist on your project, a prompt to resolve conflict will appear.
 
@@ -101,3 +101,15 @@ Give the branch a name and click `Create Branch` button.
 ![picture15](resources/image_2023-07-28_08-48-14.png)
 
 Any change you made on the new branch will not affect the `main` branch.
+
+### 2. Merge Branch
+
+To merge the branch to `main` branch, click on the `Current Branch` button on the top left of the screen and click on `main` branch.
+
+![PICTURE16](resources/image_2023-07-28_08-54-17.png)
+
+Click on `Choose a branch to merge into main` button.
+
+![pciture17](resources/image_2023-07-28_08-55-17.png)
+
+Click on the branch that you want to merge and click `Create a merge commit` button.
