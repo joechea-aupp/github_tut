@@ -83,3 +83,21 @@ click `Accept Both Changes` to accept both change.
 click `Complete Merge` to complete the merge.
 
 ![picture14](resources/image_2023-07-28_08-33-51.png)
+
+## Branching
+
+Branching is a way to work on different version of a repository at one time. By default, your repository has one branch named `main` which is considered to be the definitive branch. We use branches to experiment and make edits before committing them to `main`.
+
+When you create a branch off the `main` branch, you’re making a copy, or snapshot, of `main` as it was at that point in time. If someone else made changes to the `main` branch while you were working on your branch, you could pull in those updates.
+
+### 1. Create Branch
+
+To create a new branch, click on the `Current Branch` button on the top left of the screen and click on `New Branch`.
+
+![picture14](resources/image_2023-07-28_08-47-02.png)
+
+Give the branch a name and click `Create Branch` button.
+
+![picture15](resources/image_2023-07-28_08-48-14.png)
+
+Any change you made on the new branch will not affect the `main` branch.
