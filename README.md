@@ -28,6 +28,54 @@ Click `Push origin` button to send the change to github (cloud).
 
 ![picture5](resources/image_2023-07-27_22-30-59.png)
 
+## Creating Repositories (Github web)
+
+Login into you Github account on your perfer web browser.
+
+![picture18](resources/1.png)
+
+Click on the `+` button on the top right of the screen and click on `New repository`.
+
+![picture19](resources/2.5.png)
+
+Give the repository a name and optionally put in a discription.
+
+![picture20](resources/4.png)
+
+Set the repository to `Public`
+
+![picture21](resources/5.png)
+
+click on `add a README file` and click on `Create repository` button.
+
+![picture22](resources/6.png)
+
+Congratulation, you have created a repository.
+
+![picture23](resources/7.png)  
+
+## Change Repository remote origin
+
+To change the repository remote origin, you will need a new repository that you want to change to and a clone of the repository that you want to change from.
+
+![picture24](resources/7.png)
+
+Copy the repository url from the new repository.
+
+![picture25](resources/8.png)
+
+Open the repository that you want to change from on VS Code and open the terminal.
+
+![picture26](resources/9.png)
+
+Type in `git remote set-url origin <new repository url>` and press enter.
+
+![picture27](resources/10.png)
+
+Now add, commit and push the change to the new repository through VScode UI.
+
+![picture28](resources/11.png)
+
 ## Git In VS Code
 
 Green vertical line after line number indicate the incoming update to the repository.
