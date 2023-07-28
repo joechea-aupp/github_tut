@@ -56,6 +56,21 @@ each commit that we save will be shown on the history tab. Click on the commit t
 
 ### 3.2. Git Revert
 
-If you want to revert the change that you made, right click on any history that you want to revert to and click on `Revert changes in commit`.
+If you want to revert the change that you made, right click on any history that you want to reverted and click on `Revert changes in commit`.
 
 ![picture9](resources/image_2023-07-27_23-32-01.png)
+
+### 3.2 Dealing with Conflict
+
+If your change is impact or about to overwrite the current content that exist on your project, a prompt to resolve conflict will appear.
+
+Switch to VS Code to resolve the conflict. file that marked as conflicted will have `>>>>>>` and `<<<<<<` on the file and colored in red.
+
+click on the `Resolve Conflict` button on the bottom left of the screen.
+the incoming change will be on the left side and the outgoing change will be on the right side.
+
+click `Accept Incoming Change` to accept the incoming change or click `Accept Current Change` to accept the outgoing change.
+
+click `Accept Both Changes` to accept both change.
+
+click `Complete Merge` to complete the merge.
