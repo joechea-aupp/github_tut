@@ -16,6 +16,8 @@ This guide will help you navigate GitHub with ease.
 
 5. Click 'Clone' to download the project to your local folder.
 
+<br>
+
 ## 2. Making Changes and Committing
 
 1. Make any changes you want to the project.
@@ -31,6 +33,8 @@ This guide will help you navigate GitHub with ease.
 5. Click `Push origin` to upload your changes to GitHub.
 
     ![Push Changes](resources/image_2023-07-27_22-30-59.png)
+
+<br>
 
 ## 3. Creating Repositories on GitHub
 
@@ -54,7 +58,7 @@ This guide will help you navigate GitHub with ease.
 
     ![Create Repository](resources/6.png)
 
-Congratulations, you've just created a repository!
+<br>
 
 ## 4. Changing Repository Remote Origin
 
@@ -74,6 +78,8 @@ Congratulations, you've just created a repository!
 
     ![Push Changes](resources/11.png)
 
+<br>
+
 ## 5. Understanding Git in VS Code
 
 - Green vertical lines next to line numbers show incoming updates to the repository.
@@ -84,6 +90,8 @@ Congratulations, you've just created a repository!
 
     ![Outgoing Changes](resources/image_2023-07-27_23-09-10.png)
 
+<br>
+
 ## 6. Using GitHub Desktop
 
 - Green color shows data added to the repository.
@@ -91,6 +99,8 @@ Congratulations, you've just created a repository!
 - Orange color shows modified data in the repository.
 
     ![Color Indicators](resources/image_2023-07-27_23-18-22.png)
+
+<br>
 
 ## 7. Understanding History, Reverting Changes, and Resolving Conflicts
 
@@ -115,9 +125,12 @@ Congratulations, you've just created a repository!
     ![Resolve Conflict](resources/image_2023-07-28_08-29-11.png)
 
 6. Click `Accept Incoming Change` to accept the incoming changes, `Accept Current Change` to accept the outgoing changes, or `Accept Both Changes` to accept both.
+
 7. Click `Complete Merge` to finish the merge.
 
     ![Complete Merge](resources/image_2023-07-28_08-33-51.png)
+
+<br>
 
 ## 8. Branching
 
@@ -132,6 +145,7 @@ Branching lets you work on different versions of a repository at the same time. 
     ![Name Branch](resources/image_2023-07-28_08-48-14.png)
 
 3. Any changes you make on the new branch won't affect the `main` branch.
+
 4. To merge the branch into the `main` branch, click on the `Current Branch` button at the top left of the screen and click on the `main` branch.
 
     ![Select Main](resources/image_2023-07-28_08-54-17.png)
@@ -141,6 +155,8 @@ Branching lets you work on different versions of a repository at the same time. 
     ![Choose Branch](resources/image_2023-07-28_08-55-17.png)
 
 6. Click on the branch you want to merge and click `Create a merge commit`.
+
+<br>
 
 ## 9. Resources
 
