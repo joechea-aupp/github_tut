@@ -170,14 +170,10 @@ Branching lets you work on different versions of a repository at the same time. 
 
 ### YouTube Tutorials
 
-- [GitHub for Beginners](https://www.youtube.com/watch?v=0fKg7e37bQE)
-- [GitHub Desktop Tutorial](https://www.youtube.com/watch?v=77W2JSL7-r8)
-- [Using GitHub with VS Code](https://www.youtube.com/watch?v=Fk12ELJ9Bww)
-- [Git and GitHub Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
+- [GitHub Desktop Tutorial](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
+- [Git and GitHub Crash Course](https://www.youtube.com/watch?v=tRZGeaHPoaw)
 
-### Additional Resources
+### Additional Sources
 
-- [GitHub Learning Lab](https://lab.github.com/)
-- [GitHub Guides](https://guides.github.com/)
-- [GitHub Docs](https://docs.github.com/en/github)
-- [VS Code Docs](https://code.visualstudio.com/docs)
+- [GitHub Learning Lab](https://github.com/apps/github-learning-lab)
+- [GitHub Docs](https://docs.github.com/en)
