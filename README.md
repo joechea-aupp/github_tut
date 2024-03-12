@@ -4,7 +4,7 @@ This guide will help you navigate GitHub with ease.
 
 <br>
 
-## 1. Setting Up GitHub Desktop
+## Setting Up GitHub Desktop
 
 1. Start by downloading and installing the [GitHub Desktop app](https://desktop.github.com/).
 2. Sign in using your GitHub account.
@@ -20,7 +20,7 @@ This guide will help you navigate GitHub with ease.
 
 <br>
 
-## 2. Making Changes and Committing
+## Making Changes and Committing
 
 1. Make any changes you want to the project.
 2. Open the GitHub Desktop app to see the changes you've made.
@@ -38,7 +38,7 @@ This guide will help you navigate GitHub with ease.
 
 <br>
 
-## 3. Creating Repositories on GitHub
+## Creating Repositories on GitHub
 
 1. Sign in to your GitHub account on your preferred web browser.
 
@@ -62,7 +62,7 @@ This guide will help you navigate GitHub with ease.
 
 <br>
 
-## 4. Changing Repository Remote Origin
+## Changing Repository Remote Origin
 
 1. Copy the URL of the new repository you want to switch to.
 
@@ -82,7 +82,7 @@ This guide will help you navigate GitHub with ease.
 
 <br>
 
-## 5. Understanding Git in VS Code
+## Understanding Git in VS Code
 
 - Green vertical lines next to line numbers show incoming updates to the repository.
 
@@ -94,7 +94,7 @@ This guide will help you navigate GitHub with ease.
 
 <br>
 
-## 6. Using GitHub Desktop
+## Using GitHub Desktop
 
 - Green = data **added** to the repository
 - Red = data **deleted** from the repository
@@ -104,7 +104,7 @@ This guide will help you navigate GitHub with ease.
 
 <br>
 
-## 7. Understanding History, Reverting Changes, and Resolving Conflicts
+## Understanding History, Reverting Changes, and Resolving Conflicts
 
 1. In GitHub Desktop, you'll see the history tab to the right of the `Changes` tab. Click on it to see the repository's history.
 
@@ -134,7 +134,7 @@ This guide will help you navigate GitHub with ease.
 
 <br>
 
-## 8. Branching
+## Branching
 
 Branching lets you work on different versions of a repository at the same time. By default, your repository has one branch named `main`, which is considered the definitive branch. We use branches to experiment and make edits before committing them to `main`.
 
@@ -160,13 +160,12 @@ Branching lets you work on different versions of a repository at the same time. 
 
 <br>
 
-## 9. Resources
+## Resources
 
 ### VS Code Extensions for GitHub
 
-1. [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github): This extension lets you review and manage GitHub pull requests and issues right in VS Code.
-
-2. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): GitLens enhances the Git capabilities built into Visual Studio Code. It helps you visualize code authorship at a glance via Git blame annotations and code lens, navigate and explore Git repositories with ease, gain valuable insights via powerful comparison commands, and much more.
+- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ### YouTube Tutorials
 
