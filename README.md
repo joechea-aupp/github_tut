@@ -1,163 +1,165 @@
-## To Get Start
+# GitHub 101
 
-Download [GitHub Desktop app](https://desktop.github.com/)
+This guide will help you navigate GitHub with ease.
 
-Install the application, sign-in with you github account (the one that you are using with github classroom)
+## 1. Setting Up GitHub Desktop
 
-then chose the repository that you just fork
+1. Start by downloading and installing the [GitHub Desktop app](https://desktop.github.com/).
+2. Sign in using your GitHub account.
+3. Pick the repository you'd like to work on.
 
-![picture1](resources/image_2023-07-27_22-06-51.png)
+    ![Select Repository](resources/image_2023-07-27_22-06-51.png)
 
-Once done, choose folder that you want to store the project on your local computer
+4. Choose a local folder where you'll store the project.
 
-![picture2](resources/image_2023-07-27_22-06-54.png)
+    ![Select Folder](resources/image_2023-07-27_22-06-54.png)
 
-click on clone to start download the project.
+5. Click 'Clone' to download the project to your local folder.
 
-After made change on the project, go back to the github desktop app and observe the change
+## 2. Making Changes and Committing
 
-![picture3](resources/image_2023-07-27_22-21-52.png)
+1. Make any changes you want to the project.
+2. Open the GitHub Desktop app to see the changes you've made.
 
-To save change or commit the history, locate the bottom left screen, give title to the change history and click on `commit to main` button.
+    ![Observe Changes](resources/image_2023-07-27_22-21-52.png)
 
-![picture4](resources/image_2023-07-27_22-29-22.png)
+3. To save your changes or commit the history, go to the bottom left of the screen, give your change history a title, and click on `commit to main`.
 
-once commited, your change file will disappear from the left menu.
+    ![Commit Changes](resources/image_2023-07-27_22-29-22.png)
 
-Click `Push origin` button to send the change to github (cloud).
+4. Once you've committed, your changed file will no longer appear in the left menu.
+5. Click `Push origin` to upload your changes to GitHub.
 
-![picture5](resources/image_2023-07-27_22-30-59.png)
+    ![Push Changes](resources/image_2023-07-27_22-30-59.png)
 
-## Creating Repositories (Github web)
+## 3. Creating Repositories on GitHub
 
-Login into you Github account on your perfer web browser.
+1. Sign in to your GitHub account on your preferred web browser.
 
-![picture18](resources/1.png)
+    ![Login](resources/1.png)
 
-Click on the `+` button on the top right of the screen and click on `New repository`.
+2. Click on the `+` button at the top right of the screen and select `New repository`.
 
-![picture19](resources/2.5.png)
+    ![New Repository](resources/2.5.png)
 
-Give the repository a name and optionally put in a discription.
+3. Give your repository a name and, if you want, add a description.
 
-![picture20](resources/4.png)
+    ![Name Repository](resources/4.png)
 
-Set the repository to `Public`
+4. Make sure the repository is set to `Public`.
 
-![picture21](resources/5.png)
+    ![Set Public](resources/5.png)
 
-click on `add a README file` and click on `Create repository` button.
+5. Click on `add a README file` and then `Create repository`.
 
-![picture22](resources/6.png)
+    ![Create Repository](resources/6.png)
 
-Congratulation, you have created a repository.
+Congratulations, you've just created a repository!
 
-![picture23](resources/7.png)  
+## 4. Changing Repository Remote Origin
 
-## Change Repository remote origin
+1. Copy the URL of the new repository you want to switch to.
 
-To change the repository remote origin, you will need a new repository that you want to change to and a clone of the repository that you want to change from.
+    ![Copy URL](resources/8.png)
 
-![picture24](resources/7.png)
+2. Open the repository you want to change from in VS Code and open the terminal.
 
-Copy the repository url from the new repository.
+    ![Open Terminal](resources/9.png)
 
-![picture25](resources/8.png)
+3. Type `git remote set-url origin <new repository url>` and press enter.
 
-Open the repository that you want to change from on VS Code and open the terminal.
+    ![Set URL](resources/10.png)
 
-![picture26](resources/9.png)
+4. Add, commit, and push the changes to the new repository using the VS Code UI.
 
-Type in `git remote set-url origin <new repository url>` and press enter.
+    ![Push Changes](resources/11.png)
 
-![picture27](resources/10.png)
+## 5. Understanding Git in VS Code
 
-Now add, commit and push the change to the new repository through VScode UI.
+- Green vertical lines next to line numbers show incoming updates to the repository.
 
-![picture28](resources/11.png)
+    ![Incoming Changes](resources/image_2023-07-27_22-35-04.png)
 
-## Git In VS Code
+- Blue vertical lines next to line numbers show outgoing updates to the repository. Click on the blue line to see the changes you've made.
 
-Green vertical line after line number indicate the incoming update to the repository.
+    ![Outgoing Changes](resources/image_2023-07-27_23-09-10.png)
 
-![picture5](resources/image_2023-07-27_22-35-04.png)
+## 6. Using GitHub Desktop
 
-Blue vertical line after line number indicate the outgoing update to the repository. if you click on the blue line, you will see the change that you made.
+- Green color shows data added to the repository.
+- Red color shows data deleted from the repository.
+- Orange color shows modified data in the repository.
 
-![picture6](resources/image_2023-07-27_23-09-10.png)
+    ![Color Indicators](resources/image_2023-07-27_23-18-22.png)
 
-## Github Desktop
+## 7. Understanding History, Reverting Changes, and Resolving Conflicts
 
-- Green color indicate the additional data is added to the repository.
-- Red color indicate the data is deleted from the repository.
-- Orange color indicate the data is modified in the repository.
+1. In GitHub Desktop, you'll see the history tab to the right of the `Changes` tab. Click on it to see the repository's history.
 
-![picture7](resources/image_2023-07-27_23-18-22.png)
+    ![History](resources/image_2023-07-27_23-25-48.png)
 
-### 1. History
+2. To undo changes, right-click on any history you want to revert and click on `Revert changes in commit`.
 
-On Github Desktop, you can see the history tab on the right of `Changes` tab. Click on it to see the history of the repository.
+    ![Revert Changes](resources/image_2023-07-27_23-32-01.png)
 
-![picture8](resources/image_2023-07-27_23-25-48.png)
+3. If your changes affect or are about to overwrite the current content in your project, a prompt to resolve conflicts will appear.
 
-each commit that we save will be shown on the history tab. Click on the commit to see the change that we made.
+    ![Conflict Prompt](resources/image_2023-07-28_08-26-24.png)
 
-### 2. Git Revert
+4. Switch to VS Code to resolve the conflict. Files marked as conflicted will have `>>>>>>` and `<<<<<<` in the file and will be colored in red or orange.
 
-If you want to revert the change that you made, right click on any history that you want to reverted and click on `Revert changes in commit`.
+    ![Conflict Markers](resources/image_2023-07-28_08-26-31.png)
 
-![picture9](resources/image_2023-07-27_23-32-01.png)
+5. Click on the conflicted file and click on `Resolve in Merge Editor`. The incoming changes will be on the left side and the outgoing changes will be on the right side.
 
-### 3. Dealing with Conflict
+    ![Resolve Conflict](resources/image_2023-07-28_08-29-11.png)
 
-If your change is impact or about to overwrite the current content that exist on your project, a prompt to resolve conflict will appear.
+6. Click `Accept Incoming Change` to accept the incoming changes, `Accept Current Change` to accept the outgoing changes, or `Accept Both Changes` to accept both.
+7. Click `Complete Merge` to finish the merge.
 
-![picture11](resources/image_2023-07-28_08-26-24.png)
+    ![Complete Merge](resources/image_2023-07-28_08-33-51.png)
 
-Switch to VS Code to resolve the conflict. file that marked as conflicted will have `>>>>>>` and `<<<<<<` on the file and colored in red or orange.
+## 8. Branching
 
-![picture10](resources/image_2023-07-28_08-26-31.png)
+Branching lets you work on different versions of a repository at the same time. By default, your repository has one branch named `main`, which is considered the definitive branch. We use branches to experiment and make edits before committing them to `main`.
 
-click on the conflicted file and click on `Resolve in Merge Editor` button on the bottom left of the screen. the incoming change will be on the left side and the outgoing change will be on the right side.
+1. To create a new branch, click on the `Current Branch` button at the top left of the screen and click on `New Branch`.
 
-![picture12](resources/image_2023-07-28_08-29-11.png)
+    ![New Branch](resources/image_2023-07-28_08-47-02.png)
 
-click `Accept Incoming Change` to accept the incoming change or click `Accept Current Change` to accept the outgoing change.
+2. Give your branch a name and click `Create Branch`.
 
-![picture13](resources/image_2023-07-28_08-30-03.png)
+    ![Name Branch](resources/image_2023-07-28_08-48-14.png)
 
-click `Accept Both Changes` to accept both change.
+3. Any changes you make on the new branch won't affect the `main` branch.
+4. To merge the branch into the `main` branch, click on the `Current Branch` button at the top left of the screen and click on the `main` branch.
 
-click `Complete Merge` to complete the merge.
+    ![Select Main](resources/image_2023-07-28_08-54-17.png)
 
-![picture14](resources/image_2023-07-28_08-33-51.png)
+5. Click on `Choose a branch to merge into main`.
 
-## Branching
+    ![Choose Branch](resources/image_2023-07-28_08-55-17.png)
 
-Branching is a way to work on different version of a repository at one time. By default, your repository has one branch named `main` which is considered to be the definitive branch. We use branches to experiment and make edits before committing them to `main`.
+6. Click on the branch you want to merge and click `Create a merge commit`.
 
-When you create a branch off the `main` branch, you’re making a copy, or snapshot, of `main` as it was at that point in time. If someone else made changes to the `main` branch while you were working on your branch, you could pull in those updates.
+## 9. Resources
 
-### 1. Create Branch
+### VS Code Extensions for GitHub
 
-To create a new branch, click on the `Current Branch` button on the top left of the screen and click on `New Branch`.
+1. [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github): This extension lets you review and manage GitHub pull requests and issues right in VS Code.
 
-![picture14](resources/image_2023-07-28_08-47-02.png)
+2. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): GitLens enhances the Git capabilities built into Visual Studio Code. It helps you visualize code authorship at a glance via Git blame annotations and code lens, navigate and explore Git repositories with ease, gain valuable insights via powerful comparison commands, and much more.
 
-Give the branch a name and click `Create Branch` button.
+### YouTube Tutorials
 
-![picture15](resources/image_2023-07-28_08-48-14.png)
+- [GitHub for Beginners](https://www.youtube.com/watch?v=0fKg7e37bQE)
+- [GitHub Desktop Tutorial](https://www.youtube.com/watch?v=77W2JSL7-r8)
+- [Using GitHub with VS Code](https://www.youtube.com/watch?v=Fk12ELJ9Bww)
+- [Git and GitHub Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
 
-Any change you made on the new branch will not affect the `main` branch.
+### Additional Resources
 
-### 2. Merge Branch
-
-To merge the branch to `main` branch, click on the `Current Branch` button on the top left of the screen and click on `main` branch.
-
-![PICTURE16](resources/image_2023-07-28_08-54-17.png)
-
-Click on `Choose a branch to merge into main` button.
-
-![pciture17](resources/image_2023-07-28_08-55-17.png)
-
-Click on the branch that you want to merge and click `Create a merge commit` button.
+- [GitHub Learning Lab](https://lab.github.com/)
+- [GitHub Guides](https://guides.github.com/)
+- [GitHub Docs](https://docs.github.com/en/github)
+- [VS Code Docs](https://code.visualstudio.com/docs)
