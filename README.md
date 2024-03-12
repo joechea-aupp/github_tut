@@ -2,6 +2,8 @@
 
 This guide will help you navigate GitHub with ease.
 
+<br>
+
 ## 1. Setting Up GitHub Desktop
 
 1. Start by downloading and installing the [GitHub Desktop app](https://desktop.github.com/).
