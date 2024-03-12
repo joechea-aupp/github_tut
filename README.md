@@ -96,9 +96,9 @@ This guide will help you navigate GitHub with ease.
 
 ## 6. Using GitHub Desktop
 
-- Green color shows data added to the repository.
-- Red color shows data deleted from the repository.
-- Orange color shows modified data in the repository.
+- Green = data **added** to the repository
+- Red = data **deleted** from the repository
+- Orange = **modified data** in the repository
 
     ![Color Indicators](resources/image_2023-07-27_23-18-22.png)
 
